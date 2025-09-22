@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #000080;
+}
+
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-solid {
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
+.btn-solid:hover {
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.nav-link > .active {
+  font-weight: bold;
+  color: var(--primary-color);
+}
