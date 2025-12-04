@@ -4,6 +4,7 @@ session_start();
 if(!isset($_SESSION['name'])){
     header('Location:signin.php');
 }
+
 require('connect.php');
 $user_id = $_SESSION['user_id'];
     $stmt = $db->prepare("SELECT * FROM expenses WHERE user_id=?");

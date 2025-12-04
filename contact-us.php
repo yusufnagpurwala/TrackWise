@@ -75,7 +75,7 @@ session_start();
 
 <!-- Footer -->
 <footer class="bg-dark text-white text-center py-3">
-  <p class="mb-0">© 2025 YourCompany. All rights reserved.</p>
+  <p class="mb-0">© 2025 Trackwise. All rights reserved.</p>
 </footer>
 
 <?php require('./views/partials/scripts.php') ?>

@@ -49,7 +49,7 @@ if($result->num_rows >= 1) {
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-        var barChart = new google.visualization.BarChart(document.getElementById('barchart'));
+        // var barChart = new google.visualization.BarChart(document.getElementById('barchart'));
 
         chart.draw(data, options);
         barChart.draw(data, options);
@@ -61,7 +61,7 @@ if($result->num_rows >= 1) {
     <div class="">
         <div id="piechart" style="width: 100%; max-width: 900px; height: 500px;"></div>
     </div>
-    <div id="barchart" style="width: 100%; max-width: 900px; height: 500px;"></div>
+    <!-- <div id="barchart" style="width: 100%; max-width: 900px; height: 500px;"></div> -->
     <?php else: ?>
     <div class="container mt-5">
   <div class="row justify-content-center">
